@@ -28,3 +28,18 @@ for (var propertyName in shoppingCart) {
     const value = shoppingCart[propertyName];
     console.log(propertyName, value);
 }
+
+const person = {
+    fname: "John ",
+    lname: "Doe ",
+    age: 25
+};
+
+let txt = ' ';
+for (x in person) {
+    txt += person[x];
+}
+console.log(txt);
+
+
+

@@ -23,3 +23,18 @@ console.log(mycomputer);
 mycomputer.processor = 'i79';
 console.log(mycomputer);
 console.log(mycomputer.price);
+
+const person = {
+    name: 'Ruhani',
+    age: 35
+};
+
+let a = 'age';
+console.log(person.name);
+console.log(person[a]);
+console.log(person['name']);
+
+//deleting property
+
+delete person.age;
+console.log(person);
