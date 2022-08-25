@@ -10,3 +10,4 @@ if (date1.getTime() < date2.getTime()) {
 else {
     console.log('March was not before December');
 }
+
